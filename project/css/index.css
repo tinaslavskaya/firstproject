@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin:  0;
+	user-select: none;
+}
+
+header {
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+ul {
+	margin: 0;
+	padding:  0;
+}
+
+li { 
+
+	list-style-type: none;
+}
+
+body {
+	margin: 0 auto;
+	overflow-x: hidden;
+	font-family: "Nunito", "sans-serif";
+
+}
+
+.container-box {
+	position: relative;
+	max-width: 100%;
+	
+}

@@ -1,0 +1,153 @@
+.portfolio {
+	padding: 3rem 0;
+	position: relative;
+	background-color: #FFFFE0;
+}
+
+.section-heading-portfolio {
+	margin: 3.5rem 0;
+	text-transform: capitalize;
+}
+
+.section-title {
+	margin-bottom: 20px;
+}
+
+.section-subtitle {
+	font-weight: 600;
+}
+
+
+.portfolio-wraper {
+	margin-bottom: 2rem;
+	text-transform: capitalize;
+}
+
+.portfolio-btn-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: start;
+	margin-bottom: 2rem;
+}
+
+.portfolio-btn {
+	position: relative;
+	padding: 10px 40px;
+	margin-right: 5px;
+	border-radius: 30px;
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.portfolio-btn:hover {
+	background-color: #1E90FF;
+	color: #FFFFFF;
+}
+
+.portfolio-item {
+	padding: 0.25rem;
+}
+
+
+.item {
+	position: relative;
+	overflow: hidden;
+}
+
+.item:hover .item-info {
+	opacity: 1;
+	bottom: 20px;
+	left: 30px;
+}
+
+
+.portfolio-img-link {
+	position: relative;
+	display: block;
+	transition: 1s;
+
+}
+
+.portfolio-img-link:hover {
+	transform: scale(1.2);
+}
+
+.overlay-color {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	transition: all 1.5s ease 0s;
+}
+
+.overlay-color:hover {
+	background: rgba(70, 130, 180, 0.7);
+}
+
+.portfolio-img {
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.icon-portfolio {
+	display: flex;
+	position: absolute;
+	padding: 20px;
+	left: 40%;
+	top: 38%;
+	color: #FFFFFF;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.25rem;
+	font-weight: 800;
+	background-color: #FFFFFF;
+	color: #008B8B;
+	border-radius: 50%;		
+	opacity: 0;
+    transition: all ease 0.8s;
+    transform: scale(0.1%);
+}
+
+.item:hover .icon-portfolio {
+	opacity: 1;
+	background: rgba(255,255, 255,.8);
+	transform: scale(80%);
+}
+
+
+.item-info {
+	position: absolute;
+	bottom: -20px;
+	left: 30px;
+	color: #FFFFFF;
+	opacity: 0;
+    transition: all ease 0.8s;
+}
+
+
+
+.info-title {
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+.tag-item {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.link-portfolio:hover {
+	color: #FFFFFF;
+}
+
+.see-more-area {
+	display: block;
+	text-align: center;
+	margin-top: 4rem;
+}
+

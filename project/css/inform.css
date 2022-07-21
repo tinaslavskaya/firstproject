@@ -1,0 +1,34 @@
+body {
+	//background-color: #E5E4E2;
+}
+ 
+.inform {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10%;
+	padding-bottom: 3rem;
+	display: block;
+	margin: 1rem ;
+}
+
+.block-inform {
+	width: 500px;
+	height: 400px;
+	background-color: rgba(130, 202, 255, .8);
+	margin: 0 auto;
+	text-align: left;
+	padding: 50px 20px;
+	box-shadow: 30px 30px rgba(61, 60, 58 , .8);
+	border-radius: .5rem;
+	color: #3D3C3A;
+}
+
+hr {
+	border: 2px solid ;
+}
+
+span {
+	font-weight: bold ;
+	font-style: italic;
+}
+

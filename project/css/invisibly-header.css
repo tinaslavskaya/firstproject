@@ -1,0 +1,67 @@
+.invisibly-wraper {
+	width: 100%;
+	display: none;
+	position: fixed;
+	margin-top: 90px;
+	z-index: 6;
+	background-color: rgba(194, 131, 54, 0.9);
+}
+
+.invisibly-wraper-block {
+	
+	display: block;
+}
+
+.invisibly-navbar {
+ 	text-align: center;
+}
+
+.invisibly-item {
+	padding: 20px 30px 20px 30px;
+	
+}
+
+.invisibly-item:hover {
+	background-color: rgba(0,128,128, 0.4);
+}	
+
+.invisibly-link {
+	font-weight: 600;
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out 0.2s;
+}
+
+.invisibly-link:hover {
+	color: #FF8C00;
+}
+
+@keyframes invisiblyShow {
+	0% {
+		width: 20%;
+	}
+	
+	100% {
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.invisibly-wraper {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1122px) {
+	.invisibly-wraper {	
+		animation: invisiblyShow 2s ease-in-out ;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.invisibly-link {
+		font-size: 20px;
+	}
+}

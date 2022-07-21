@@ -1,0 +1,21 @@
+.table-guests {
+	width: 100%;
+}
+
+th {
+	background-color: rgba(114,143,206, 0.7);
+	
+}
+
+td {
+	background: #ADDFFF;
+	font-size: 1.1rem;
+}
+
+th, td {
+	border: 2px solid #FFFF;
+	padding: 10px;
+	color: #36454F;
+	vertical-align: middle;
+}
+

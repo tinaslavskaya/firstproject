@@ -1,0 +1,46 @@
+.our-clients { 
+	display: inline-block;
+	background-color: #728FCE;
+	text-transform: capitalize;
+	width: 100%;
+	text-align: center;
+	padding: 3rem 0;
+}
+
+.container-clients {
+	display: inline;
+}
+
+
+.swiper-container {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	position: relative;
+	justify-content: center;
+	overflow: hidden;
+
+}
+
+
+.swipe-slide {
+	display: inline-block;
+}
+
+.client-logo {
+	display: inline-block;
+	padding: 5px 40px;
+}
+
+.logo {
+	display: block;
+	width: 120px;
+	 transform: rotateY(80deg);
+	animation: moving 10s infinite linear;
+}
+
+
+@keyframes moving {
+
+    100% {transform: rotate(1turn);}
+}

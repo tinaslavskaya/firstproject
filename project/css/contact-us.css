@@ -1,0 +1,76 @@
+.contact-us {
+	padding-top: 6rem;
+}
+
+.contact-us-subtitle {
+	font-weight: 600;
+	font-size: 1.1rem;
+	color: #707070;
+}
+
+.row-contact-us {
+	display: flex;
+}
+
+.input-wraper {
+	display: block;
+	position: relative;
+
+}
+
+input[name=user_email] {
+	margin: 0;
+}
+
+input[type=text],
+input[name=user_email],
+textarea {
+	border:  none;
+	padding: 5px;
+	width: 100%;
+}
+
+input[type=text]:focus,
+input[name=user_email]:focus, textarea:focus {
+	outline:  none;	
+	border-bottom: 2px solid rgba(0,139,139, .5);
+}
+
+
+label {
+	width: 100%;
+	border-bottom: 1px solid rgba(0,139,139, 1);
+	color: #707070;
+}
+
+
+#red {
+	width: 100%;
+	color: red;
+}
+
+.submit-wraper {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.button-contact {
+	border: none;
+	border-radius: 60px;
+	font-weight: 600;
+	font-size: 1.1rem;
+	color: #FFF;
+}
+
+.validation-error {
+	font-size: 1rem;	
+}
+
+@media screen and (max-width: 450px) {
+	.button-contact {
+		font-size: 0.9rem;
+		padding: 1rem;
+	}
+}
+
+

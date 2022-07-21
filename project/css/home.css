@@ -1,0 +1,144 @@
+.page-hero {
+	position: relative;
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+	background: url("../image/shapes-bg.png");
+	background-color: #3EA99F;
+	background-size: cover;
+	min-height: 100vh;
+	line-height: 1.2;
+}
+
+.container {
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.word1 {
+	text-transform: capitalize;
+	font: 4rem "Montserrat" , sans-serif;
+	font-weight: 800;
+	color: #FFFFFF;
+
+}
+
+.word2 {
+	display: block;
+	text-transform: capitalize;
+	font: 1.3rem "Nunito", sans-serif;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin: 20px 0;
+}
+
+.single-field-form {
+	display: block;
+	margin-bottom: 100px;
+}
+
+.input-group {
+	margin-top:  30px;
+}
+
+input[type=email] {
+	display: flex;
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	outline:  none;
+	border: none;
+}
+
+.email-place {
+	background-color: #FFFF;
+	padding:  10px 40px;
+	
+}
+
+.input-home:focus {
+	border: 3px solid #43C6DB;
+}
+
+.btn-home {
+	padding:  15px 36px;
+	border: none;
+	background-color: #43BFC7;;
+	color: #FFFFFF;	
+	text-transform: capitalize;
+	font-weight: 600;
+	transition: 1.5s ease-in-out 0s;
+}
+
+.btn-home:hover {
+	color: #3A3B3C;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	.word1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+
+	.word2 {
+		font-size: 1.1rem ;		
+	}
+
+	
+	input[type=email] {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.input-home {
+		width: 100%;
+		//border: 1px solid #43BFC7;
+	}
+
+}
+
+
+@media screen and (max-width: 991px) {
+	.word1, .word2 {
+		display: flex;
+		text-align: center;
+	}
+
+	.btn-home {
+		margin: 0px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.input-group {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+
+@media screen and (max-width: 529px) {
+	.word1 {
+		display: flex;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 700;
+	}
+}
+
+
+@media screen and (max-width: 249px) {
+	.word1 {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+
+	.word2 {
+		font-size: 0.5rem;
+		font-weight: 300;
+	}
+}

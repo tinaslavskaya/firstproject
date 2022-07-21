@@ -1,0 +1,110 @@
+.section-bg-shade {
+	background-color: #FFEFD5;
+	text-align: center;
+	padding: 3rem 0;
+	position: relative;
+	font: 16px "Nunito", sans-serif;
+	font-weight: 600;
+	color: #333;
+	
+}
+
+.section-heading {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.section-title {
+	font: 18px "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 3rem;
+
+}
+
+.section-subtitle {
+	margin: 0 auto;
+	width: 60%;
+	font-size: 1.1rem;
+	color: #707070;
+}
+
+
+.feature-box {
+	padding: 2rem 0;
+	text-align: left;
+}
+
+.feat-icon {
+	margin-bottom: 1rem;
+	transition: 1s ease-in-out 0s;
+}
+
+.feat-icon:hover {
+	
+	transform: translateY(-10px);
+}
+
+
+.feat-title {
+	text-transform: capitalize;
+}
+
+.feat-text {
+	
+}
+
+.line-solid-main-color {
+	display: block;
+	margin: 1rem auto;
+	margin-bottom: 3rem;
+	border-radius: 20%;
+	background: #1E90FF;
+	width: 75px;
+	height: 4px;
+}
+
+.see-more-area {
+	margin: 40px 0 60px 0;
+}
+
+.ms-btn-primary {
+	position: relative;
+	background-color: #1E90FF;
+	padding: 12px 50px;
+	border-radius: 30px;
+	border: 1px solid rgba(0,0,0,0);
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	transition: 1s ease-in-out 0s;
+}
+
+.ms-btn-primary:hover {
+	box-shadow: 1px 1px 5px 3px #ADD8E6;
+	color: #333;
+}
+
+@media screen and (max-width: 272px) {
+	.section-title {
+		font: 18px "Montserrat", sans-serif;
+		font-weight: 600;
+		font-size: 2rem;
+	}
+
+
+	.feature-box {
+		padding: 2rem 0  1rem 0;
+	}
+
+	.see-more-area {
+		margin: 20px 0 60px 0;
+	}
+
+	.ms-btn-primary {
+		font-size: 0.8rem;
+		margin-top: 0;
+	    padding: 12px 15px;
+	    font-weight: 600;
+	}
+
+}
