@@ -71,10 +71,12 @@
 	</div>
 	
 <script src="https://releases.jquery.com/git/jquery-git.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/d3js/7.6.1/d3.min.js"></script>
 <script src="js/header.js"></script>
 <script src="js/header_baget.js"></script>
 <script src="js/section.js"></script>
 <script src="js/portfolio.js"></script>	
+<script src="js/button_switch.js"></script>	
 <script src="js/our_video.js"></script>
 <script src="js/pricing.js"></script>
 <script src="js/slider.js"></script>	

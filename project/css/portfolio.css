@@ -1,4 +1,4 @@
-.portfolio {
+.portfolio { 
 	padding: 3rem 0;
 	position: relative;
 	background-color: #FFFFE0;
@@ -41,7 +41,7 @@
 	text-align: center;
 }
 
-.portfolio-btn:hover {
+.portfolio-btn-active {
 	background-color: #1E90FF;
 	color: #FFFFFF;
 }

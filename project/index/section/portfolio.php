@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container">    
 	<div class="section-heading section-heading-portfolio">
 		<h2 class="section-title">
 			<span class="word">a</span>
